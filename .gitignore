@@ -36,3 +36,5 @@ site-lisp/package/
 /swank
 /.mc-lists.el
 /var
+bookmarks
+floobits/
