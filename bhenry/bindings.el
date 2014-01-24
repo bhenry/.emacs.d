@@ -6,8 +6,6 @@
 
 ;;other bindings
 (global-set-key (kbd "C-c m") 'magit-status)
-(global-set-key (kbd "C-x N") 'nrepl-jack-in)
-(global-set-key (kbd "C-x M-n") 'nrepl-jack-in)
 (global-set-key (kbd "C-x B") 'projectile-find-file)
 (global-set-key (kbd "C-x T") 'ns-toggle-fullscreen)
 
@@ -27,3 +25,9 @@
 (global-set-key (kbd "<mouse-4>") 'down-slightly)
 (global-set-key (kbd "<mouse-5>") 'up-slightly)
 
+;;repl
+(fset 'repl-connect
+   "\C-[xnrepl\C-m\C-m9009\C-m")
+
+(global-set-key (kbd "C-x N") 'repl-connect)
+(global-set-key (kbd "C-x M-n") 'repl-connect)
