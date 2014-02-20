@@ -14,7 +14,7 @@
 
 (defvar my-packages '(starter-kit starter-kit-lisp starter-kit-eshell
                                   starter-kit-js starter-kit-bindings
-                                  clojure-mode clojure-test-mode nrepl
+                                  clojure-mode clojure-test-mode
                                   projectile rainbow-delimiters rainbow-mode)
   "A list of packages to ensure are installed at launch.")
 
@@ -103,4 +103,5 @@ Display the results in a hyperlinked *compilation* buffer."
  )
 
 
-(load "~/.emacs.d/floobits/floobits.el")
+;;(load "~/.emacs.d/floobits/floobits.el")
+

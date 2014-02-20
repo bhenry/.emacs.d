@@ -1,0 +1,1 @@
+("~/projects/personal/bhenry-js/" "~/projects/personal/fake-project/" "~/projects/cicayda/monolith/" "~/.emacs.d/")
